@@ -1,0 +1,9 @@
+x = int (input ("Digite o valor x: " ) )
+b = int (input ("Digite a base :") )
+valor  = x
+x2 = x // 100
+x = x % 100
+x1= x // 10
+x0 = x %  10
+v = x2 * b**2 + x1 * b + x0 * b**0
+print("%i na base %i =  %i na base 10" % (valor , b , v))
